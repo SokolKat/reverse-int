@@ -4,4 +4,5 @@ module.exports = function reverse (n) {
     if (reversed[reversed.length - 1] == '-') {
         reversed = reversed.slice(0, -1);
     }
-};
+    return reversed;
+}
